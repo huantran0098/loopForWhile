@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title> Luyện tập vòng lặp 01</title>
+
+</head>
+<body>
+<!--<input type="button" id="number" onclick="doanSo()" value="Play"><label></label>-->
+
+<!--    <script>-->
+<!--    // Ex1-->
+<!--    // for (i = 1; i <= 100; i++) {-->
+<!--    //     console.log(i);-->
+<!--    // } while (i = 99) {-->
+<!--    //     alert('HOAN THANH');-->
+<!--    //     break;-->
+<!--    // }-->
+
+<!--    // Ex2-->
+<!--    // let tem = +prompt('enter the num')-->
+<!--    //-->
+<!--    // for ( ;tem < 20; tem++) {-->
+<!--    //     alert('tang nhiet do');-->
+<!--    //     break;-->
+<!--    //     for (; tem > 100; tem++) {-->
+<!--    //         alert('giam nhiet do')-->
+<!--    //     }-->
+<!--    // }-->
+
+<!--    // Ex3-->
+<!--    // let number = parseInt(prompt('Enter a number')) ;-->
+<!--    // let n1 = 0 , n2 = 1 , nextN ;-->
+<!--    //-->
+<!--    // console.log('Fibb ');-->
+<!--    //-->
+<!--    // for (let i = 1; i <= number; i++){-->
+<!--    //     console.log(n1) ;-->
+<!--    //     nextN = n1 + n2 ;-->
+<!--    //     n1 = n2 ;-->
+<!--    //     n2 = nextN ;-->
+<!--    // }-->
+<!--    //Ex4-->
+<!--    // let number = parseInt(prompt('Enter a number')) ;-->
+<!--    // let n1 = 0 , n2 = 1 , nextN ;-->
+<!--    //-->
+<!--    // console.log('Fibb ');-->
+<!--    //-->
+<!--    // for (let i = 1; i <= number; i++) {-->
+<!--    //     console.log(n1);-->
+<!--    //     nextN = n1 + n2;-->
+<!--    //     n1 = n2;-->
+<!--    //     n2 = nextN;-->
+<!--    //     if ( nextN % 5 === 0){-->
+<!--    //         document.write(nextN);-->
+<!--    //         break;-->
+<!--    //     }-->
+<!--    // }-->
+<!--    //Ex5-->
+<!--   //  let number = parseInt(prompt('Enter a number')) ;-->
+<!--   //  let n1 = 0 , n2 = 1 , nextN ;-->
+<!--   //-->
+<!--   //  // console.log('Fibb ');-->
+<!--   //-->
+<!--   //  for (let i = 1; i <= number; i++){-->
+<!--   //      console.log(n1) ;-->
+<!--   //      nextN = n1 + n2 ;-->
+<!--   //      n1 = n2 ;-->
+<!--   //      n2 = nextN ;-->
+<!--   //      sum += nextN ;-->
+<!--   //  }-->
+<!--   // document.write(sum);-->
+<!--   //  Ex6-->
+<!--   //  let number = parseInt(prompt('Enter a number')) ;-->
+<!--   //  let n1 = 7 ;-->
+<!--   //  for (i = 0; i < number ; i++) {-->
+<!--   //-->
+<!--   //      nextN = n1 * ( i + 1) ;-->
+<!--   //      sum += nextN-->
+<!--   //      document.write(sum);-->
+<!--   //  }-->
+<!--   //      Ex7-->
+<!--   //  let num = +prompt('Enter a number')-->
+<!--   //-->
+<!--   //  for (let i = 1; i <= num ; i++) {-->
+<!--   //-->
+<!--   //      document.write(i + "<br>");-->
+<!--   //      if ( i % 3 == 0 && i % 5 == 0) {-->
+<!--   //          document.write('FizzBuzz'+ "<br>");-->
+<!--   //      } else if ( i % 3 ==0 ){-->
+<!--   //          document.write('Fizz' + "<br>");-->
+<!--   //      } else if (i % 5 == 0) {-->
+<!--   //          document.write('Buzz' + "<br>")-->
+<!--   //      }-->
+<!--   //  }-->
+<!--    </script>-->
+</body>
+<script>
+
+    let num = +prompt('Ban muon doan so trong khoang nao');
+    let soN = Math.floor(Math.random() * num);
+    alert(result);
+
+    function doanSo() {
+        let doanN = +prompt('Ban doan so nao');
+
+        if (doanN != soN) {
+            alert('ban sai cmnr');
+        } else {
+            alert('doan chuan cmnl');
+        }
+    }
+
+</script>
+</html>
